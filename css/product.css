@@ -1,0 +1,78 @@
+.container{
+	padding-top: 20px;
+}
+
+.right_part h3{
+	font-size:24px;
+	padding:0px;
+}
+
+
+.right_part h3 small{
+	font-size:16px;
+	line-height: 24px;
+	padding-top: 0;
+}
+.right_part h5 b{
+	color:#000;
+}
+.right_part .addtocart{
+	border: 1px solid;
+	color:deepskyblue;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding:10px 15px;
+	border-radius: 4px;
+	display: inline-block;
+	transition:0.8s;
+}
+.right_part .addtocart:hover{
+	color:white;
+	background-color: deepskyblue;
+}
+
+.right_part .writeview{
+	border: 1px solid;
+	color:deepskyblue;
+	font-size:16px;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	margin-left: 20px;
+	display: inline-block;
+	transition:0.8s;
+}
+.right_part .writeview:hover{
+	color:white;
+	background-color: deepskyblue;
+}
+.right_part .buynow{
+	background-color: deepskyblue;
+	text-transform: uppercase;
+	text-align: center;
+	width: 60%;
+	border: 1px solid white;
+	color:deepskyblue;
+	font-size:20px;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.buynow span,.buynow .fa{
+	color: white;
+}
+
+
+.left_part .sp-wrap{
+	max-width: 90%;
+	max-height:10%;
+}
+.left_part img{
+	max-width: inherit;
+	max-height: 600px;
+}

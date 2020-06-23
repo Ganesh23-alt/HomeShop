@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Services</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/services.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<!-- header section starts -->
+	<div class="main" id="main">
+		<div class="nav-bar">
+			<div class="nav-logo">
+				<p><i class="fa fa-shopping-cart"></i>HomeShop</p>
+			</div>
+			<div class="nav-links" id="nav-links">
+				<i class="fa fa-close"onclick="closeNav()"></i>
+				<ul>
+					<a href="index.html"><li>home</li></a>
+					<a href="services.html"><li>services</li></a>
+					<a href="products.html"><li>products</li></a>
+					<a href="contacts.html"><li>contact</li></a>
+				</ul>
+				<!-- Button trigger modal -->
+				<div class="button">
+					<button type="button" class="btn1" data-toggle="modal" data-target="#exampleModal">
+						sign in
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Register</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Password</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+										</div>
+										<div class="form-check">
+											<input type="checkbox" class="form-check-input" id="exampleCheck1">
+											<label class="form-check-label" for="exampleCheck1">Check me out</label>
+										</div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+									<button type="button" class="btn btn-primary"><a href="contacts.html">Sign Up</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<i class="fa fa-bars" onclick="show()"></i>
+			</div>
+		</div>
+
+	<!-- header section ends-->
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 text-center service-item">
+					<div class ="service-icon">
+						<i class="fa fa-truck"></i>
+					</div>
+					<h3>Free Delivery</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+				<div class="col-md-4 text-center service-item ">
+					<div class ="service-icon">
+						<i class="fa fa-paper-plane"></i>
+					</div>
+					<h3>Discount</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+				<div class="col-md-4 text-center service-item">
+					<div class ="service-icon">
+						<i class="fa fa-refresh"></i>
+					</div>
+					<h3>Return Policy</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+				<div class="col-md-4 text-center service-item">
+					<div class ="service-icon">
+						<i class="fa fa-database"></i>
+					</div>
+					<h3>Secure Payment</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+				<div class="col-md-4 text-center service-item">
+					<div class ="service-icon">
+						<i class="fa fa-phone"></i>
+					</div>
+					<h3>Reliability</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+				<div class="col-md-4 text-center service-item">
+					<div class ="service-icon">
+						<i class="fa fa-shopping-bag"></i>
+					</div>
+					<h3>Shopping</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- main div ends here-->
+</div>
+
+	<!-- footer section -->
+	<section id="foot_part">
+		<div class="row">
+			<div class="column left">
+				<h3>contact us</h3>
+				<div class="first" data-aos="fade-up-right">
+					<div class="con">
+						<div class="office"><i class="fa fa-paper-plane"></i></div>
+						<h5>head office<br><span>123,main street,your city</span></h5>
+					</div>
+				</div>
+				<div class="first" data-aos="fade-up-left">
+					<div class="con">
+						<div class="office"><i class="fa fa-phone"></i></div>
+						<h5>mbl number<br><span>+977 9877665522 (official) <br>+977 9860765544</span></h5>
+					</div>
+				</div>
+				<div class="first" data-aos="fade-up-right">
+					<div class="con">
+						<div class="office"><i class="fa fa-envelope"></i></div>
+						<h5>mail service<br><span style="text-transform: none;">ganeshranahat23@gmail.com</span></h5>
+					</div>
+				</div>
+			</div>
+
+			<div class="column middle">
+				<h3>gallery</h3>
+				<div class="gallery">
+					<figure class="gallery__item gallery__item-1" data-aos="fade-up">
+						<img src="https://i.ibb.co/BsFL9XH/Screenshot-20200331-160708.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-2" data-aos="fade-up">
+						<img src="https://i.ibb.co/XbQ7ByH/Screenshot-20200401-074843.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-3" data-aos="fade-up">
+						<img src="https://i.ibb.co/QFvmCzF/Screenshot-20200331-160358.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-4" data-aos="fade-up">
+						<img src="https://i.ibb.co/nbBQMty/Screenshot-20200331-181008.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-5" data-aos="fade-up">
+						<img src="https://i.ibb.co/XLyrhmb/Screenshot-20200331-180118.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-6" data-aos="fade-up">
+						<img src="https://i.ibb.co/Hq2rVnb/Screenshot-20200331-212725.png"class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-7" data-aos="fade-up">
+						<img src="https://i.ibb.co/2YMfnM5/bag.png" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item-8" data-aos="fade-up">
+						<img src="https://i.ibb.co/wSWcF09/watch.png" class="gallery__img">
+					</figure>
+				</div>
+			</div>
+
+			<div class="column right">
+				<h3>quick links</h3>
+				<ul class="links text-center" data-aos="zoom-out">
+					<li><a href="index.html">home</a></li>
+					<li><a href="services.html">services</a></li>
+					<li><a href="products.html">products</a></li>
+					<li><a href="#offers">offers</a></li>
+					<li><a href="#manufactures">manufactures</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<p>Made with by GaneshRanabhat</p>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('2 k=O.D("C-B");3 z(){k.n.t="-y"}3 d(){k.n.t="0"}$(\'#u\').v(\'w.E.5\',3(e){2 $e=$(e.A);2 b=$e.G();2 9=4;2 l=$(\'.5-g\').H;7(b>=l-(9-1)){2 q=9-(l-b);I(2 i=0;i<q;i++){7(e.J=="F"){$(\'.5-g\').m(i).p(\'.5-o\')}f{$(\'.5-g\').m(0).p(\'.5-o\')}}}});$(3(){$(\'.a-8-c\').h();$(j).6(3(){2 6=$(j).L();7(6<=r){$(\'.a-8-c\').h()}f{$(\'.a-8-c\').d()}7(6<=r){$(\'.s\').d()}f $(\'.s\').h()});$(j).M(3(){$(".N").K("x")})})',51,51,'||var|function||carousel|scroll|if|to|itemsPerSlide|back|idx|top|show||else|item|hide||window|sh|totalItems|eq|style|inner|appendTo|it|100|down|right|carouselExample|on|slide|slow|200px|closeNav|relatedTarget|links|nav|getElementById|bs|left|index|length|for|direction|fadeOut|scrollTop|load|loader|document'.split('|'),0,{}))
+		AOS.init({
+			easing: 'ease-out',
+			duration: 500, 
+
+
+		});
+	</script>
+</section>
+
+<!--footer ends -->
+
+</body>
+</html>
