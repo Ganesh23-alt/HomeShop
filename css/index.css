@@ -697,7 +697,8 @@ input:active,input:focus{
     position:absolute ;
     transform:rotate(45deg);
     background:deepskyblue;
-    animation:2s expand  linear infinite forwards;
+    animation:2s expand linear infinite forwards;
+
 }
 .loader .load:before{
     height:50px;
